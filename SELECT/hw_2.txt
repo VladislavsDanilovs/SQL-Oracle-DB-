@@ -1,0 +1,15 @@
+1. Display all information about the regions.
+2. Display information about the first name, department id, salary and last name for all employees.
+3. Display information about the employee id, email and the date that was one week before employment for all employees. Name the column that will contain the date One week before hire date .
+4. Display information about employees with their positions in the format: Donald(SH_CLERK) . Name the column our_employees .
+5. List the unique names among workers.
+6. Display the following information from the jobs table:
+•	job_title,
+•	expression in the format: "min = 20080, max = 40000"
+•	, where 20080 is the minimum salary and 40000 is the maximum.
+•	Name this column info.
+•	maximum salary and name the column max,
+•	new salary, which will be called new_salary and calculated by the formula: max_salary*2-2000.
+7. Display the sentence "Peter's dog is very clever" using one of the two single quote techniques.
+8. Display the sentence "Peter's dog is very clever" using a different single-quote technique from the previous example.
+9. Display the number of minutes in one century (1 year = 365.25 days).
