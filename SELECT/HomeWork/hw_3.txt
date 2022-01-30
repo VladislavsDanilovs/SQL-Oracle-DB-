@@ -1,0 +1,11 @@
+1. Get a list of all employees named David.
+2. Get a list of all employees whose job_id is equal to FI_ACCOUNT.
+3. Display information about the first name, last name, salary and department number for employees from the 50th department with a salary greater than 4000. 
+4. Get a list of all employees who work in either the 20th or 30th department.
+5. Get a list of all employees whose second and last letter in their name is 'a'.
+6. Get a list of all employees from the 50th and from the 80th department who have a bonus (commission). Sort rows by email (ascending order) using its serial number.
+7. Get a list of all employees whose name contains at least 2 letters 'n'.
+8. Get a list of all employees whose names are longer than 4 letters. Sort the rows by department number (descending order) so that null values ​​are at the very end.
+9. Get a list of all employees whose salary is between 3000 and 7000 (inclusive), no bonus (commission) and job_id among the following options: PU_CLERK, ST_MAN, ST_CLERK.
+10. Get a list of all employees whose name contains the character '%'.
+11. Print information about job_id, name and salary for workers whose work id is greater than or equal to 120 and job_id is not equal to IT_PROG. Sort rows by job_id (ascending order) and names (descending order).
