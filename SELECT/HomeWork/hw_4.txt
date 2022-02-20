@@ -1,0 +1,24 @@
+
+1. Get a list of all employees whose name is longer than 10 letters.
+2. Get a list of all employees whose salary is a multiple of 1000.
+3. Print the phone number and the first 3-digit number of the employee's phone number, if his number is presented in the format ХХХ.ХХХ.ХХХХ .
+4. Get a list of all employees whose last letter in the name is equal to 'm' and the length of the name is greater than 5.
+5. Print the date of next Friday.
+6. Get a list of all employees who have been with the company for more than 12 years and 6 months (150 months).
+7. Print the phone number, replacing all '.' in the PHONE_NUMBER value. on the '-'.
+8. Print the name, email, job_id for all employees in the format:
+STEVEN sking Ad_Pres
+9. Display information about the employee's name and salary without using || , like this: Steven24000
+10. Display information about the date the employee was hired, the rounded date of hire to the month and the first day of the year of hire.
+11. Display information about the first and last name of all employees. The name must be 10 characters long, and if the name is less than 10, then pad to 10 characters with a $ sign. The surname must consist of 15 characters, and if the length of the surname is less than 15, then put as many characters before the surname! how much is needed.
+12. Print the name of the employee and the position of the second letter ‘a’ in his name.
+13. Display the text '!!!HELLO!! MY FRIEND!!!!!!!!!' and the same text, but without the exclamation point symbol at the beginning and end of the text.
+14. Display information about:
+a. salary of the employee,
+b. salary multiplied by the coefficient 3.1415,
+c. the version of the increased salary rounded to the nearest whole number,
+d. an integer number of thousands from the increased salary.
+15. Display information about:
+a. date of hiring the employee,
+b. the date that was half a year after the employee was hired,
+c. the date of the last day in the month in which the employee was hired. 
