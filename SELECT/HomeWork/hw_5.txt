@@ -1,0 +1,35 @@
+1. Using functions, get a list of all employees who have the letter 'b' in their name (case insensitive).
+2. Using functions, get a list of all employees whose name contains at least 2 letters 'a'.
+3. Get the first word from the name of the department, for those departments whose name consists of more than one word.
+4. Get the names of employees without the first and last letter in the name.
+5. Get a list of all employees whose job_id value after the '_' sign has at least 3 characters, but this value after the '_' is not equal to 'CLERK'.
+6. Get a list of all employees who came to work on the first day of any month.
+7. Get a list of all employees who came to work in 2008.
+8. Show tomorrow's date in the format:
+Tomorrow is Second day of January
+9. Display the name of the employee and the date of his arrival at work in the following format:
+21st of June, 2007
+10. Get a list of workers with a 20% increase in salaries. Show salary in the format: $28,800.00
+11. Display the current date (current), + second, + minute, + hour, + day, + month, + year. (All of these are separately added to the current date).
+12. Print the name of the employee, his salary and the new salary, which is equal to the old one plus this value of the text "$12,345.55".
+13. Print the name of the employee, the day they were employed, and the number of months between the day they were employed and the date you want to get from the text "SEP, 18:45:00 18 2009".
+14. Print the employee's name, salary, and total salary (salary + commission_pct(%)) in the format: $24,000.00 .
+15. Print the employee's first name, last name, and the expression "different length" if the length of the first name is not equal to the length of the last name, or the expression "same length" if the length of the first name is equal to the length of the last name. Don't use conditional functions.
+16. Display the name of the employee, his commission, and information about the presence of bonuses to salary - whether he has commissions (Yes/No).
+17. Print the name of the employee and the value that it will be
+characterize: the value of the commission, if present, if not,
+then the id of his manager, if it is absent, then his salary.
+18. Print the name of the employee, his/her salary, as well as the salary level of each
+employee: Less than 5000 is considered Low level, Greater than or equal to 5000
+and less than 10000 is considered Normal level, Greater than or equal to 10000
+considered high level.
+19. For each country, show the region in which it is located: 1-
+Europe, 2-America, 3-Asia, 4-Africa. Complete this task,
+using the JOIN functionality. Use DECODE.
+20. Solve Problem #19 using CASE.
+21. Print the name of the employee, his salary, and the level of
+employee good conditions :
+BAD: salary less than 10,000 and no commission;
+NORMAL: salary between 10000 and 15000 or if present
+Commission;
+GOOD: salary is greater than or equal to 15000.
