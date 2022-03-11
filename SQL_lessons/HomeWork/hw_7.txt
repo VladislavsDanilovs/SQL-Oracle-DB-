@@ -1,0 +1,14 @@
+JOIN
+
+1. Display information about the regions and the number of employees in each region.
+2. Display detailed information about each employee: first name, last name, department name, job_id, address, country and region.
+3. Display information about the names of managers who have more than 6 employees under their control, and also display the number of employees who report to them.
+4. Display information about the name of all departments and the number of employees if the department has more than 30 employees. Use the "USING" technology to merge by department id.
+5. Print the names of all departments that do not have a single employee.
+6. Display all information about employees whose managers got a job in 2005, but the employees themselves got a job before 2005.
+7. Print the name of the country and the name of the region of this country using natural join.
+8. Print the names, surnames and salaries of employees who receive less than (the minimum salary for their specialty + 1000).
+9. Display the unique names and surnames of employees, the names of the countries in which they work. Also display information about employees for whose countries there is no information. And also display all countries where there are no employees of the company.
+10. Print the first and last names of all employees, as well as the names of the countries that we get when we combine employees with all countries without any logic.
+11. Solve problem #1 using Oracle Join syntax.
+12. Solve problem #5 using Oracle Join syntax.
