@@ -1,0 +1,23 @@
+1. Rewrite and run this statemenet to create the locations2 table, which will contain the same columns as locations:
+CREATE TABLE locations2 AS (SELECT * FROM locations WHERE 1=2);
+2. Add 2 rows to the locations2 table with information about location id, address, city, country id. Let these rows refer to the country Italy.
+3. Make a commit.
+4. Add 2 more rows to the locations2 table, without using the enumeration of the names of the columns in which the information is entered. Let these rows refer to the country France. When writing values, use functions where possible.
+5. Make a commit.
+6. Add rows from the locations table to the locations2 table where the length of the state_province column is greater than 9.
+7. Make a commit.
+8. Rewrite and run this statemenet to create the locations4europe table, which will contain the same columns as locations:
+CREATE TABLE locations4europe AS (SELECT * FROM locations WHERE 1=2);
+9. In one statement, add to the locations2 table all the information for all rows from the locations table, and add information about the location id, address, city, country id to the locations4europe table only for those rows from the locations table where the cities are in Europe.
+10. Make a commit.
+11. In the locations2 table, change the postal code to any value on the rows where there is currently no postal code information.
+12. Rollback.
+13. In the locations2 table, change the postal code on the rows where there is currently no postal code information. The new value must be the code from the locations table for the row with id 2600.
+14. Make a commit.
+15. Delete the rows from the locations2 table where the country id is "IT".
+16. Create the first savepoint.
+17. In the locations2 table, change the address in those rows where the location id is greater than 2500. The new value should be “Sezam st. eighteen"
+18. Create a second savepoint.
+19. Delete the rows from the locations2 table where the address is "Sezam st. eighteen".
+20. Roll back the changes to the first savepoint.
+21. Make a commit.
