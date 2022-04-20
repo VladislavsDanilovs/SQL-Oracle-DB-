@@ -1,0 +1,20 @@
+# Table creation, Altering table, Truncate, Drop.
+
+1. Create the friends table using subquery so that after creation it contains the values ​​of the following columns from the employees table: employee_id, first_name, last_name for those rows where there are commissions. The columns in the friends table should be named id, name, surname .
+2. Add a new column email to the friends table.
+3. Change the email column so that its default value is "no email".
+4. Check by adding a new line if the default value of the email column works.
+5. Change the column name from id to friends_id .
+6. Delete table friends.
+7. Create a friends table with the following columns: id, name, surname, email, salary, city, birthday. The salary and birthday columns should have default values.
+8. Add 1 row to friends table with all values.
+9. Add 1 row to friends table with all values ​​except salary and birthday.
+10. Make a commit.
+11. Remove the salary column.
+12. Make the email column unused.
+13. Make the birthday column unused.
+14. Remove unused columns from the friends table.
+15. Make the friends table read-only.
+16. Check the previous action with any DML command.
+17. Empty the friends table.
+18. Delete table friends.
