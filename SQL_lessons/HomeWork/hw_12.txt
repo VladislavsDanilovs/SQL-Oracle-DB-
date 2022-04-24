@@ -1,0 +1,8 @@
+1. Create an address table with the following columns: id, country, city. When creating the table, create an inline unique constraint named ad_id_un on the id column.
+2. Create a friends table with the following columns: id, name, email, address_id, birthday. When creating a table, create an inline foreign key constraint on the address_id column that refers to the id column from the address table, use the "on delete set null" option. Also, when creating a table, create a check constraint at the table level to check that the name length must be greater than 3.
+3. Create a unique index on the id column from the friends table.
+4. Using the “add” functionality of the “alter table” command, create a constraint primary key called fr_id_pk on the id column from the friends table.
+5. Create an index called fr_email_in on the email column from the friends table.
+6. Using the "modify" functionality of the "alter table" command, create a constraint not null called fr_email_nn on the email column from the friends table.
+7. Drop the friends table.
+8. Drop the address table.
