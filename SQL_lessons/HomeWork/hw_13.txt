@@ -1,0 +1,14 @@
+1. Create table emp1000 using subquery so that when created it contains the values ​​of the following columns from the employees table: 
+first_name, last_name, salary, department_id.
+2. Create a view v1000 based on a select that joins the emp1000 and departments tables by the department_id column. 
+The View must contain the following columns: first_name, last_name, salary, department_name, city.
+3. Add a city column to the emp1000 table.
+4. Compile view v1000.
+5. Create a syn1000 alias for v1000.
+6. Remove v1000.
+7. Remove syn1000.
+8. Remove emp1000.
+9. Create a seq1000 sequence that starts at 12, increases by 4, has a maximum value of 200, and cycles.
+10. Change this sequence. Remove the maximum value and cycling.
+11. Add 2 rows to the employees table using as few columns as possible. Use the sequence seq1000 when adding values ​​to the employee_id column.
+12. Make a commit.
