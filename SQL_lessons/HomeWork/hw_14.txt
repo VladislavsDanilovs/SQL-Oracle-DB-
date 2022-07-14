@@ -1,0 +1,12 @@
+1. Create a table test200 with the following columns: 
+id, name1, name2, address1, address2. The first one must be of type integer, the rest must be varchar2.
+
+2. Write a template for modifying rows that will ask each time it is run which column value is being changed, 
+what value is being changed to, and for which id value is being changed.
+
+3. Write a select that will display all the information from the test200 table for rows 
+whose name1 and name2 columns are equal to the same value, and whose address1 and address2 columns are also equal to the same value.
+Write a template for statement that,
+when run once, will ask for only 2 values ​​- one for the first 2 columns and the second for the other 2 columns.
+
+4. Write a command/s that removes the session values ​​for our variables.
